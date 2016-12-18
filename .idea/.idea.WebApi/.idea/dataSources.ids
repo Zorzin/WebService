@@ -1,0 +1,1446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="PostgreSQL - events@46.101.230.219" uuid="06426052-9ed6-4eaa-8de0-bfdcd10e6be3">
+    <database-info product="PostgreSQL" version="9.5.5" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact"/>
+    <database-model serializer="dbm" rdbms="POSTGRES" format-version="2.6">
+      <database id="1" name="events">
+        <object-id>16384</object-id>
+        <visible>1</visible>
+      </database>
+      <database id="2" name="postgres">
+        <object-id>12413</object-id>
+      </database>
+      <schema id="3" parent="1" name="public">
+        <object-id>2200</object-id>
+        <visible>1</visible>
+        <introspection-state-number>954</introspection-state-number>
+        <introspection-timestamp>2016-12-18.21:38:55.725</introspection-timestamp>
+      </schema>
+      <schema id="4" parent="1" name="pg_catalog">
+        <object-id>11</object-id>
+      </schema>
+      <schema id="5" parent="1" name="pg_toast">
+        <object-id>99</object-id>
+      </schema>
+      <schema id="6" parent="1" name="pg_temp_1">
+        <object-id>11816</object-id>
+      </schema>
+      <schema id="7" parent="1" name="pg_toast_temp_1">
+        <object-id>11817</object-id>
+      </schema>
+      <schema id="8" parent="1" name="information_schema">
+        <object-id>12121</object-id>
+      </schema>
+      <schema id="9" parent="1" name="dbo">
+        <object-id>16606</object-id>
+        <visible>1</visible>
+        <introspection-state-number>952</introspection-state-number>
+        <introspection-timestamp>2016-12-18.21:38:55.725</introspection-timestamp>
+      </schema>
+      <sequence id="10" parent="3" name="Activities_ActivityID_seq">
+        <object-id>16775</object-id>
+        <state-number>954</state-number>
+      </sequence>
+      <sequence id="11" parent="3" name="AspNetRoleClaims_Id_seq">
+        <object-id>16741</object-id>
+        <state-number>954</state-number>
+      </sequence>
+      <sequence id="12" parent="3" name="AspNetUserClaims_Id_seq">
+        <object-id>16796</object-id>
+        <state-number>954</state-number>
+      </sequence>
+      <sequence id="13" parent="3" name="Events_EventID_seq">
+        <object-id>16684</object-id>
+        <state-number>954</state-number>
+      </sequence>
+      <sequence id="14" parent="3" name="PhotoEvents_PhotoEventID_seq">
+        <object-id>16757</object-id>
+        <state-number>954</state-number>
+      </sequence>
+      <sequence id="15" parent="3" name="Photos_PhotoID_seq">
+        <object-id>16711</object-id>
+        <state-number>954</state-number>
+      </sequence>
+      <sequence id="16" parent="3" name="Places_PlaceID_seq">
+        <object-id>16722</object-id>
+        <state-number>954</state-number>
+      </sequence>
+      <sequence id="17" parent="3" name="UserEvents_UserEventID_seq">
+        <object-id>16843</object-id>
+        <state-number>954</state-number>
+      </sequence>
+      <table id="18" parent="3" name="__EFMigrationsHistory">
+        <object-id>16679</object-id>
+        <state-number>953</state-number>
+      </table>
+      <table id="19" parent="3" name="Activities">
+        <object-id>16777</object-id>
+        <state-number>954</state-number>
+      </table>
+      <table id="20" parent="3" name="AspNetRoleClaims">
+        <object-id>16743</object-id>
+        <state-number>954</state-number>
+      </table>
+      <table id="21" parent="3" name="AspNetRoles">
+        <object-id>16695</object-id>
+        <state-number>954</state-number>
+      </table>
+      <table id="22" parent="3" name="AspNetUserClaims">
+        <object-id>16798</object-id>
+        <state-number>954</state-number>
+      </table>
+      <table id="23" parent="3" name="AspNetUserLogins">
+        <object-id>16812</object-id>
+        <state-number>954</state-number>
+      </table>
+      <table id="24" parent="3" name="AspNetUserRoles">
+        <object-id>16825</object-id>
+        <state-number>954</state-number>
+      </table>
+      <table id="25" parent="3" name="AspNetUsers">
+        <object-id>16733</object-id>
+        <state-number>954</state-number>
+      </table>
+      <table id="26" parent="3" name="AspNetUserTokens">
+        <object-id>16703</object-id>
+        <state-number>954</state-number>
+      </table>
+      <table id="27" parent="3" name="Events">
+        <object-id>16686</object-id>
+        <state-number>954</state-number>
+      </table>
+      <table id="28" parent="3" name="PhotoEvents">
+        <object-id>16759</object-id>
+        <state-number>954</state-number>
+      </table>
+      <table id="29" parent="3" name="Photos">
+        <object-id>16713</object-id>
+        <state-number>954</state-number>
+      </table>
+      <table id="30" parent="3" name="Places">
+        <object-id>16724</object-id>
+        <state-number>954</state-number>
+      </table>
+      <table id="31" parent="3" name="UserEvents">
+        <object-id>16845</object-id>
+        <state-number>954</state-number>
+      </table>
+      <sequence id="32" parent="9" name="Activities_ActivityID_seq">
+        <object-id>16385</object-id>
+        <state-number>721</state-number>
+      </sequence>
+      <sequence id="33" parent="9" name="AspNetUserClaims_Id_seq">
+        <object-id>16453</object-id>
+        <state-number>721</state-number>
+      </sequence>
+      <sequence id="34" parent="9" name="Events_EventID_seq">
+        <object-id>16403</object-id>
+        <state-number>721</state-number>
+      </sequence>
+      <sequence id="35" parent="9" name="PhotoEvents_PhotoEventID_seq">
+        <object-id>16484</object-id>
+        <state-number>721</state-number>
+      </sequence>
+      <sequence id="36" parent="9" name="Photos_PhotoID_seq">
+        <object-id>16496</object-id>
+        <state-number>721</state-number>
+      </sequence>
+      <sequence id="37" parent="9" name="Places_PlaceID_seq">
+        <object-id>16507</object-id>
+        <state-number>721</state-number>
+      </sequence>
+      <sequence id="38" parent="9" name="UserEvents_UserEventID_seq">
+        <object-id>16607</object-id>
+        <state-number>721</state-number>
+      </sequence>
+      <table id="39" parent="9" name="__MigrationHistory">
+        <object-id>16583</object-id>
+        <state-number>721</state-number>
+      </table>
+      <table id="40" parent="9" name="Activities">
+        <object-id>16387</object-id>
+        <state-number>946</state-number>
+      </table>
+      <table id="41" parent="9" name="AspNetRoles">
+        <object-id>16520</object-id>
+        <state-number>721</state-number>
+      </table>
+      <table id="42" parent="9" name="AspNetUserClaims">
+        <object-id>16455</object-id>
+        <state-number>721</state-number>
+      </table>
+      <table id="43" parent="9" name="AspNetUserLogins">
+        <object-id>16466</object-id>
+        <state-number>721</state-number>
+      </table>
+      <table id="44" parent="9" name="AspNetUserRoles">
+        <object-id>16475</object-id>
+        <state-number>721</state-number>
+      </table>
+      <table id="45" parent="9" name="AspNetUsers">
+        <object-id>16437</object-id>
+        <state-number>952</state-number>
+      </table>
+      <table id="46" parent="9" name="Events">
+        <object-id>16405</object-id>
+        <state-number>893</state-number>
+      </table>
+      <table id="47" parent="9" name="PhotoEvents">
+        <object-id>16486</object-id>
+        <state-number>721</state-number>
+      </table>
+      <table id="48" parent="9" name="Photos">
+        <object-id>16498</object-id>
+        <state-number>721</state-number>
+      </table>
+      <table id="49" parent="9" name="Places">
+        <object-id>16509</object-id>
+        <state-number>721</state-number>
+      </table>
+      <table id="50" parent="9" name="UserEvents">
+        <object-id>16609</object-id>
+        <state-number>952</state-number>
+      </table>
+      <column id="51" parent="18" name="MigrationId">
+        <state-number>953</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(150)|0</data-type>
+      </column>
+      <column id="52" parent="18" name="ProductVersion">
+        <state-number>953</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <index id="53" parent="18" name="PK___EFMigrationsHistory">
+        <object-id>16682</object-id>
+        <columns>MigrationId</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="54" parent="18" name="PK___EFMigrationsHistory">
+        <object-id>16683</object-id>
+        <columns>MigrationId</columns>
+        <underlying-index>PK___EFMigrationsHistory</underlying-index>
+        <primary>1</primary>
+      </key>
+      <column id="55" parent="19" name="ActivityID">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer|0</data-type>
+        <default-expression>nextval(&apos;&quot;Activities_ActivityID_seq&quot;&apos;::regclass)</default-expression>
+      </column>
+      <column id="56" parent="19" name="EndHour">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+      </column>
+      <column id="57" parent="19" name="EventID">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer|0</data-type>
+      </column>
+      <column id="58" parent="19" name="GamePoint">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean|0</data-type>
+      </column>
+      <column id="59" parent="19" name="PlaceID">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer|0</data-type>
+      </column>
+      <column id="60" parent="19" name="StartHour">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+      </column>
+      <column id="61" parent="19" name="Text">
+        <state-number>954</state-number>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="62" parent="19" name="Title">
+        <state-number>954</state-number>
+        <data-type>text|0</data-type>
+      </column>
+      <index id="63" parent="19" name="PK_Activities">
+        <object-id>16784</object-id>
+        <columns>ActivityID</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="64" parent="19" name="IX_Activities_EventID">
+        <object-id>16864</object-id>
+        <columns>EventID</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="65" parent="19" name="IX_Activities_PlaceID">
+        <object-id>16865</object-id>
+        <columns>PlaceID</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="66" parent="19" name="PK_Activities">
+        <object-id>16785</object-id>
+        <columns>ActivityID</columns>
+        <underlying-index>PK_Activities</underlying-index>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="67" parent="19" name="FK_Activities_Events_EventID">
+        <object-id>16786</object-id>
+        <columns>EventID</columns>
+        <ref-key>~.Events.PK_Events</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="68" parent="19" name="FK_Activities_Places_PlaceID">
+        <object-id>16791</object-id>
+        <columns>PlaceID</columns>
+        <ref-key>~.Places.PK_Places</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="69" parent="20" name="Id">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer|0</data-type>
+        <default-expression>nextval(&apos;&quot;AspNetRoleClaims_Id_seq&quot;&apos;::regclass)</default-expression>
+      </column>
+      <column id="70" parent="20" name="ClaimType">
+        <state-number>954</state-number>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="71" parent="20" name="ClaimValue">
+        <state-number>954</state-number>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="72" parent="20" name="RoleId">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>text|0</data-type>
+      </column>
+      <index id="73" parent="20" name="PK_AspNetRoleClaims">
+        <object-id>16750</object-id>
+        <columns>Id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="74" parent="20" name="IX_AspNetRoleClaims_RoleId">
+        <object-id>16867</object-id>
+        <columns>RoleId</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="75" parent="20" name="PK_AspNetRoleClaims">
+        <object-id>16751</object-id>
+        <columns>Id</columns>
+        <underlying-index>PK_AspNetRoleClaims</underlying-index>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="76" parent="20" name="FK_AspNetRoleClaims_AspNetRoles_RoleId">
+        <object-id>16752</object-id>
+        <columns>RoleId</columns>
+        <ref-key>~.AspNetRoles.PK_AspNetRoles</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="77" parent="21" name="Id">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="78" parent="21" name="ConcurrencyStamp">
+        <state-number>954</state-number>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="79" parent="21" name="Name">
+        <state-number>954</state-number>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="80" parent="21" name="NormalizedName">
+        <state-number>954</state-number>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <index id="81" parent="21" name="PK_AspNetRoles">
+        <object-id>16701</object-id>
+        <columns>Id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="82" parent="21" name="RoleNameIndex">
+        <object-id>16866</object-id>
+        <columns>NormalizedName</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="83" parent="21" name="PK_AspNetRoles">
+        <object-id>16702</object-id>
+        <columns>Id</columns>
+        <underlying-index>PK_AspNetRoles</underlying-index>
+        <primary>1</primary>
+      </key>
+      <column id="84" parent="22" name="Id">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer|0</data-type>
+        <default-expression>nextval(&apos;&quot;AspNetUserClaims_Id_seq&quot;&apos;::regclass)</default-expression>
+      </column>
+      <column id="85" parent="22" name="ClaimType">
+        <state-number>954</state-number>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="86" parent="22" name="ClaimValue">
+        <state-number>954</state-number>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="87" parent="22" name="UserId">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>text|0</data-type>
+      </column>
+      <index id="88" parent="22" name="PK_AspNetUserClaims">
+        <object-id>16805</object-id>
+        <columns>Id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="89" parent="22" name="IX_AspNetUserClaims_UserId">
+        <object-id>16868</object-id>
+        <columns>UserId</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="90" parent="22" name="PK_AspNetUserClaims">
+        <object-id>16806</object-id>
+        <columns>Id</columns>
+        <underlying-index>PK_AspNetUserClaims</underlying-index>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="91" parent="22" name="FK_AspNetUserClaims_AspNetUsers_UserId">
+        <object-id>16807</object-id>
+        <columns>UserId</columns>
+        <ref-key>~.AspNetUsers.PK_AspNetUsers</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="92" parent="23" name="LoginProvider">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="93" parent="23" name="ProviderKey">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="94" parent="23" name="ProviderDisplayName">
+        <state-number>954</state-number>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="95" parent="23" name="UserId">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>text|0</data-type>
+      </column>
+      <index id="96" parent="23" name="PK_AspNetUserLogins">
+        <object-id>16818</object-id>
+        <columns>LoginProvider
+ProviderKey</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="97" parent="23" name="IX_AspNetUserLogins_UserId">
+        <object-id>16869</object-id>
+        <columns>UserId</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="98" parent="23" name="PK_AspNetUserLogins">
+        <object-id>16819</object-id>
+        <columns>LoginProvider
+ProviderKey</columns>
+        <underlying-index>PK_AspNetUserLogins</underlying-index>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="99" parent="23" name="FK_AspNetUserLogins_AspNetUsers_UserId">
+        <object-id>16820</object-id>
+        <columns>UserId</columns>
+        <ref-key>~.AspNetUsers.PK_AspNetUsers</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="100" parent="24" name="UserId">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="101" parent="24" name="RoleId">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>text|0</data-type>
+      </column>
+      <index id="102" parent="24" name="PK_AspNetUserRoles">
+        <object-id>16831</object-id>
+        <columns>UserId
+RoleId</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="103" parent="24" name="IX_AspNetUserRoles_RoleId">
+        <object-id>16870</object-id>
+        <columns>RoleId</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="104" parent="24" name="PK_AspNetUserRoles">
+        <object-id>16832</object-id>
+        <columns>UserId
+RoleId</columns>
+        <underlying-index>PK_AspNetUserRoles</underlying-index>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="105" parent="24" name="FK_AspNetUserRoles_AspNetUsers_UserId">
+        <object-id>16838</object-id>
+        <columns>UserId</columns>
+        <ref-key>~.AspNetUsers.PK_AspNetUsers</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="106" parent="24" name="FK_AspNetUserRoles_AspNetRoles_RoleId">
+        <object-id>16833</object-id>
+        <columns>RoleId</columns>
+        <ref-key>~.AspNetRoles.PK_AspNetRoles</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="107" parent="25" name="Id">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="108" parent="25" name="AccessFailedCount">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer|0</data-type>
+      </column>
+      <column id="109" parent="25" name="ConcurrencyStamp">
+        <state-number>954</state-number>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="110" parent="25" name="Email">
+        <state-number>954</state-number>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="111" parent="25" name="EmailConfirmed">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean|0</data-type>
+      </column>
+      <column id="112" parent="25" name="LockoutEnabled">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean|0</data-type>
+      </column>
+      <column id="113" parent="25" name="LockoutEnd">
+        <state-number>954</state-number>
+        <data-type>timestamp with time zone|0</data-type>
+      </column>
+      <column id="114" parent="25" name="NormalizedEmail">
+        <state-number>954</state-number>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="115" parent="25" name="NormalizedUserName">
+        <state-number>954</state-number>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="116" parent="25" name="PasswordHash">
+        <state-number>954</state-number>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="117" parent="25" name="PhoneNumber">
+        <state-number>954</state-number>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="118" parent="25" name="PhoneNumberConfirmed">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean|0</data-type>
+      </column>
+      <column id="119" parent="25" name="SecurityStamp">
+        <state-number>954</state-number>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="120" parent="25" name="TwoFactorEnabled">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean|0</data-type>
+      </column>
+      <column id="121" parent="25" name="UserName">
+        <state-number>954</state-number>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <index id="122" parent="25" name="PK_AspNetUsers">
+        <object-id>16739</object-id>
+        <columns>Id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="123" parent="25" name="UserNameIndex">
+        <object-id>16876</object-id>
+        <columns>NormalizedUserName</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="124" parent="25" name="EmailIndex">
+        <object-id>16875</object-id>
+        <columns>NormalizedEmail</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="125" parent="25" name="PK_AspNetUsers">
+        <object-id>16740</object-id>
+        <columns>Id</columns>
+        <underlying-index>PK_AspNetUsers</underlying-index>
+        <primary>1</primary>
+      </key>
+      <column id="126" parent="26" name="UserId">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="127" parent="26" name="LoginProvider">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="128" parent="26" name="Name">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="129" parent="26" name="Value">
+        <state-number>954</state-number>
+        <data-type>text|0</data-type>
+      </column>
+      <index id="130" parent="26" name="PK_AspNetUserTokens">
+        <object-id>16709</object-id>
+        <columns>UserId
+LoginProvider
+Name</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="131" parent="26" name="PK_AspNetUserTokens">
+        <object-id>16710</object-id>
+        <columns>UserId
+LoginProvider
+Name</columns>
+        <underlying-index>PK_AspNetUserTokens</underlying-index>
+        <primary>1</primary>
+      </key>
+      <column id="132" parent="27" name="EventID">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer|0</data-type>
+        <default-expression>nextval(&apos;&quot;Events_EventID_seq&quot;&apos;::regclass)</default-expression>
+      </column>
+      <column id="133" parent="27" name="Active">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean|0</data-type>
+      </column>
+      <column id="134" parent="27" name="Date">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+      </column>
+      <column id="135" parent="27" name="Gameable">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean|0</data-type>
+      </column>
+      <column id="136" parent="27" name="Text">
+        <state-number>954</state-number>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="137" parent="27" name="Title">
+        <state-number>954</state-number>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="138" parent="27" name="Viewable">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean|0</data-type>
+      </column>
+      <index id="139" parent="27" name="PK_Events">
+        <object-id>16693</object-id>
+        <columns>EventID</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="140" parent="27" name="PK_Events">
+        <object-id>16694</object-id>
+        <columns>EventID</columns>
+        <underlying-index>PK_Events</underlying-index>
+        <primary>1</primary>
+      </key>
+      <column id="141" parent="28" name="PhotoEventID">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer|0</data-type>
+        <default-expression>nextval(&apos;&quot;PhotoEvents_PhotoEventID_seq&quot;&apos;::regclass)</default-expression>
+      </column>
+      <column id="142" parent="28" name="EventID">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer|0</data-type>
+      </column>
+      <column id="143" parent="28" name="PhotoID">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer|0</data-type>
+      </column>
+      <index id="144" parent="28" name="PK_PhotoEvents">
+        <object-id>16763</object-id>
+        <columns>PhotoEventID</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="145" parent="28" name="IX_PhotoEvents_EventID">
+        <object-id>16871</object-id>
+        <columns>EventID</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="146" parent="28" name="IX_PhotoEvents_PhotoID">
+        <object-id>16872</object-id>
+        <columns>PhotoID</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="147" parent="28" name="PK_PhotoEvents">
+        <object-id>16764</object-id>
+        <columns>PhotoEventID</columns>
+        <underlying-index>PK_PhotoEvents</underlying-index>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="148" parent="28" name="FK_PhotoEvents_Events_EventID">
+        <object-id>16765</object-id>
+        <columns>EventID</columns>
+        <ref-key>~.Events.PK_Events</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="149" parent="28" name="FK_PhotoEvents_Photos_PhotoID">
+        <object-id>16770</object-id>
+        <columns>PhotoID</columns>
+        <ref-key>~.Photos.PK_Photos</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="150" parent="29" name="PhotoID">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer|0</data-type>
+        <default-expression>nextval(&apos;&quot;Photos_PhotoID_seq&quot;&apos;::regclass)</default-expression>
+      </column>
+      <column id="151" parent="29" name="Source">
+        <state-number>954</state-number>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="152" parent="29" name="Text">
+        <state-number>954</state-number>
+        <data-type>text|0</data-type>
+      </column>
+      <index id="153" parent="29" name="PK_Photos">
+        <object-id>16720</object-id>
+        <columns>PhotoID</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="154" parent="29" name="PK_Photos">
+        <object-id>16721</object-id>
+        <columns>PhotoID</columns>
+        <underlying-index>PK_Photos</underlying-index>
+        <primary>1</primary>
+      </key>
+      <column id="155" parent="30" name="PlaceID">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer|0</data-type>
+        <default-expression>nextval(&apos;&quot;Places_PlaceID_seq&quot;&apos;::regclass)</default-expression>
+      </column>
+      <column id="156" parent="30" name="Latitude">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>real|0</data-type>
+      </column>
+      <column id="157" parent="30" name="Longitude">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>real|0</data-type>
+      </column>
+      <column id="158" parent="30" name="Name">
+        <state-number>954</state-number>
+        <data-type>text|0</data-type>
+      </column>
+      <index id="159" parent="30" name="PK_Places">
+        <object-id>16731</object-id>
+        <columns>PlaceID</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="160" parent="30" name="PK_Places">
+        <object-id>16732</object-id>
+        <columns>PlaceID</columns>
+        <underlying-index>PK_Places</underlying-index>
+        <primary>1</primary>
+      </key>
+      <column id="161" parent="31" name="UserEventID">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer|0</data-type>
+        <default-expression>nextval(&apos;&quot;UserEvents_UserEventID_seq&quot;&apos;::regclass)</default-expression>
+      </column>
+      <column id="162" parent="31" name="EventID">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer|0</data-type>
+      </column>
+      <column id="163" parent="31" name="Points">
+        <state-number>954</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer|0</data-type>
+      </column>
+      <column id="164" parent="31" name="UserID">
+        <state-number>954</state-number>
+        <data-type>text|0</data-type>
+      </column>
+      <index id="165" parent="31" name="PK_UserEvents">
+        <object-id>16852</object-id>
+        <columns>UserEventID</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="166" parent="31" name="IX_UserEvents_EventID">
+        <object-id>16873</object-id>
+        <columns>EventID</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="167" parent="31" name="IX_UserEvents_UserID">
+        <object-id>16874</object-id>
+        <columns>UserID</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="168" parent="31" name="PK_UserEvents">
+        <object-id>16853</object-id>
+        <columns>UserEventID</columns>
+        <underlying-index>PK_UserEvents</underlying-index>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="169" parent="31" name="FK_UserEvents_Events_EventID">
+        <object-id>16854</object-id>
+        <columns>EventID</columns>
+        <ref-key>~.Events.PK_Events</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="170" parent="31" name="FK_UserEvents_AspNetUsers_UserID">
+        <object-id>16859</object-id>
+        <columns>UserID</columns>
+        <ref-key>~.AspNetUsers.PK_AspNetUsers</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="171" parent="39" name="MigrationId">
+        <state-number>664</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(150)|0</data-type>
+        <default-expression>&apos;&apos;::character varying</default-expression>
+      </column>
+      <column id="172" parent="39" name="ContextKey">
+        <state-number>664</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(300)|0</data-type>
+        <default-expression>&apos;&apos;::character varying</default-expression>
+      </column>
+      <column id="173" parent="39" name="Model">
+        <state-number>664</state-number>
+        <mandatory>1</mandatory>
+        <data-type>bytea|0</data-type>
+        <default-expression>&apos;\x&apos;::bytea</default-expression>
+      </column>
+      <column id="174" parent="39" name="ProductVersion">
+        <state-number>664</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;::character varying</default-expression>
+      </column>
+      <index id="175" parent="39" name="PK_public.__MigrationHistory">
+        <object-id>16593</object-id>
+        <columns>MigrationId
+ContextKey</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="176" parent="39" name="PK_public.__MigrationHistory">
+        <object-id>16594</object-id>
+        <columns>MigrationId
+ContextKey</columns>
+        <underlying-index>PK_public\u002E__MigrationHistory</underlying-index>
+        <primary>1</primary>
+      </key>
+      <column id="177" parent="40" name="ActivityID">
+        <state-number>664</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer|0</data-type>
+        <default-expression>nextval(&apos;&quot;Activities_ActivityID_seq&quot;&apos;::regclass)</default-expression>
+      </column>
+      <column id="178" parent="40" name="Text">
+        <state-number>664</state-number>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="179" parent="40" name="StartHour">
+        <state-number>664</state-number>
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0001-01-01 00:00:00&apos;::timestamp without time zone</default-expression>
+      </column>
+      <column id="180" parent="40" name="EndHour">
+        <state-number>664</state-number>
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0001-01-01 00:00:00&apos;::timestamp without time zone</default-expression>
+      </column>
+      <column id="181" parent="40" name="PlaceID">
+        <state-number>664</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer|0</data-type>
+        <default-expression>0</default-expression>
+      </column>
+      <column id="182" parent="40" name="EventID">
+        <state-number>664</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer|0</data-type>
+        <default-expression>0</default-expression>
+      </column>
+      <column id="183" parent="40" name="Title">
+        <state-number>691</state-number>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="184" parent="40" name="Gameable">
+        <state-number>946</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean|0</data-type>
+        <default-expression>false</default-expression>
+      </column>
+      <index id="185" parent="40" name="PK_public.Activities">
+        <object-id>16399</object-id>
+        <columns>ActivityID</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="186" parent="40" name="Activities_IX_PlaceID">
+        <object-id>16401</object-id>
+        <columns>EventID</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="187" parent="40" name="Activities_IX_EventID">
+        <object-id>16402</object-id>
+        <columns>Title</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="188" parent="40" name="PK_public.Activities">
+        <object-id>16400</object-id>
+        <columns>ActivityID</columns>
+        <underlying-index>PK_public\u002EActivities</underlying-index>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="189" parent="40" name="FK_public.Activities_public.Places_PlaceID">
+        <object-id>16533</object-id>
+        <columns>EventID</columns>
+        <ref-key>~.Places.PK_public\u002EPlaces</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="190" parent="40" name="FK_public.Activities_public.Events_EventID">
+        <object-id>16528</object-id>
+        <columns>Title</columns>
+        <ref-key>~.Events.PK_public\u002EEvents</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="191" parent="41" name="Id">
+        <state-number>664</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;::character varying</default-expression>
+      </column>
+      <column id="192" parent="41" name="Name">
+        <state-number>664</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(256)|0</data-type>
+        <default-expression>&apos;&apos;::character varying</default-expression>
+      </column>
+      <index id="193" parent="41" name="PK_public.AspNetRoles">
+        <object-id>16525</object-id>
+        <columns>Id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="194" parent="41" name="AspNetRoles_RoleNameIndex">
+        <object-id>16527</object-id>
+        <columns>Name</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="195" parent="41" name="PK_public.AspNetRoles">
+        <object-id>16526</object-id>
+        <columns>Id</columns>
+        <underlying-index>PK_public\u002EAspNetRoles</underlying-index>
+        <primary>1</primary>
+      </key>
+      <column id="196" parent="42" name="Id">
+        <state-number>664</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer|0</data-type>
+        <default-expression>nextval(&apos;&quot;AspNetUserClaims_Id_seq&quot;&apos;::regclass)</default-expression>
+      </column>
+      <column id="197" parent="42" name="UserId">
+        <state-number>664</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;::character varying</default-expression>
+      </column>
+      <column id="198" parent="42" name="ClaimType">
+        <state-number>664</state-number>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="199" parent="42" name="ClaimValue">
+        <state-number>664</state-number>
+        <data-type>text|0</data-type>
+      </column>
+      <index id="200" parent="42" name="PK_public.AspNetUserClaims">
+        <object-id>16463</object-id>
+        <columns>Id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="201" parent="42" name="AspNetUserClaims_IX_UserId">
+        <object-id>16465</object-id>
+        <columns>UserId</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="202" parent="42" name="PK_public.AspNetUserClaims">
+        <object-id>16464</object-id>
+        <columns>Id</columns>
+        <underlying-index>PK_public\u002EAspNetUserClaims</underlying-index>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="203" parent="42" name="FK_public.AspNetUserClaims_public.AspNetUsers_UserId">
+        <object-id>16553</object-id>
+        <columns>UserId</columns>
+        <ref-key>~.AspNetUsers.PK_public\u002EAspNetUsers</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="204" parent="43" name="LoginProvider">
+        <state-number>664</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;::character varying</default-expression>
+      </column>
+      <column id="205" parent="43" name="ProviderKey">
+        <state-number>664</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;::character varying</default-expression>
+      </column>
+      <column id="206" parent="43" name="UserId">
+        <state-number>664</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;::character varying</default-expression>
+      </column>
+      <index id="207" parent="43" name="PK_public.AspNetUserLogins">
+        <object-id>16472</object-id>
+        <columns>LoginProvider
+ProviderKey
+UserId</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="208" parent="43" name="AspNetUserLogins_IX_UserId">
+        <object-id>16474</object-id>
+        <columns>UserId</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="209" parent="43" name="PK_public.AspNetUserLogins">
+        <object-id>16473</object-id>
+        <columns>LoginProvider
+ProviderKey
+UserId</columns>
+        <underlying-index>PK_public\u002EAspNetUserLogins</underlying-index>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="210" parent="43" name="FK_public.AspNetUserLogins_public.AspNetUsers_UserId">
+        <object-id>16558</object-id>
+        <columns>UserId</columns>
+        <ref-key>~.AspNetUsers.PK_public\u002EAspNetUsers</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="211" parent="44" name="UserId">
+        <state-number>664</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;::character varying</default-expression>
+      </column>
+      <column id="212" parent="44" name="RoleId">
+        <state-number>664</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;::character varying</default-expression>
+      </column>
+      <index id="213" parent="44" name="PK_public.AspNetUserRoles">
+        <object-id>16480</object-id>
+        <columns>UserId
+RoleId</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="214" parent="44" name="AspNetUserRoles_IX_UserId">
+        <object-id>16482</object-id>
+        <columns>UserId</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="215" parent="44" name="AspNetUserRoles_IX_RoleId">
+        <object-id>16483</object-id>
+        <columns>RoleId</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="216" parent="44" name="PK_public.AspNetUserRoles">
+        <object-id>16481</object-id>
+        <columns>UserId
+RoleId</columns>
+        <underlying-index>PK_public\u002EAspNetUserRoles</underlying-index>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="217" parent="44" name="FK_public.AspNetUserRoles_public.AspNetUsers_UserId">
+        <object-id>16563</object-id>
+        <columns>UserId</columns>
+        <ref-key>~.AspNetUsers.PK_public\u002EAspNetUsers</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="218" parent="44" name="FK_public.AspNetUserRoles_public.AspNetRoles_RoleId">
+        <object-id>16568</object-id>
+        <columns>RoleId</columns>
+        <ref-key>~.AspNetRoles.PK_public\u002EAspNetRoles</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="219" parent="45" name="Id">
+        <state-number>664</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;::character varying</default-expression>
+      </column>
+      <column id="220" parent="45" name="Email">
+        <state-number>664</state-number>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="221" parent="45" name="EmailConfirmed">
+        <state-number>664</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean|0</data-type>
+        <default-expression>false</default-expression>
+      </column>
+      <column id="222" parent="45" name="PasswordHash">
+        <state-number>664</state-number>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="223" parent="45" name="SecurityStamp">
+        <state-number>664</state-number>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="224" parent="45" name="PhoneNumber">
+        <state-number>664</state-number>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="225" parent="45" name="PhoneNumberConfirmed">
+        <state-number>664</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean|0</data-type>
+        <default-expression>false</default-expression>
+      </column>
+      <column id="226" parent="45" name="TwoFactorEnabled">
+        <state-number>664</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean|0</data-type>
+        <default-expression>false</default-expression>
+      </column>
+      <column id="227" parent="45" name="LockoutEndDateUtc">
+        <state-number>664</state-number>
+        <data-type>timestamp|0</data-type>
+      </column>
+      <column id="228" parent="45" name="LockoutEnabled">
+        <state-number>664</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean|0</data-type>
+        <default-expression>false</default-expression>
+      </column>
+      <column id="229" parent="45" name="AccessFailedCount">
+        <state-number>664</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer|0</data-type>
+        <default-expression>0</default-expression>
+      </column>
+      <column id="230" parent="45" name="UserName">
+        <state-number>664</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(256)|0</data-type>
+        <default-expression>&apos;&apos;::character varying</default-expression>
+      </column>
+      <index id="231" parent="45" name="PK_public.AspNetUsers">
+        <object-id>16450</object-id>
+        <columns>Id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="232" parent="45" name="AspNetUsers_UserNameIndex">
+        <object-id>16452</object-id>
+        <columns>UserName</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="233" parent="45" name="PK_public.AspNetUsers">
+        <object-id>16451</object-id>
+        <columns>Id</columns>
+        <underlying-index>PK_public\u002EAspNetUsers</underlying-index>
+        <primary>1</primary>
+      </key>
+      <column id="234" parent="46" name="EventID">
+        <state-number>664</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer|0</data-type>
+        <default-expression>nextval(&apos;&quot;Events_EventID_seq&quot;&apos;::regclass)</default-expression>
+      </column>
+      <column id="235" parent="46" name="Text">
+        <state-number>664</state-number>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="236" parent="46" name="Active">
+        <state-number>664</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean|0</data-type>
+        <default-expression>false</default-expression>
+      </column>
+      <column id="237" parent="46" name="Viewable">
+        <state-number>664</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean|0</data-type>
+        <default-expression>false</default-expression>
+      </column>
+      <column id="238" parent="46" name="Title">
+        <state-number>691</state-number>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="239" parent="46" name="Gameable">
+        <state-number>725</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean|0</data-type>
+        <default-expression>false</default-expression>
+      </column>
+      <column id="240" parent="46" name="Date">
+        <state-number>893</state-number>
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0001-01-01 00:00:00&apos;::timestamp without time zone</default-expression>
+      </column>
+      <index id="241" parent="46" name="PK_public.Events">
+        <object-id>16415</object-id>
+        <columns>EventID</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="242" parent="46" name="PK_public.Events">
+        <object-id>16416</object-id>
+        <columns>EventID</columns>
+        <underlying-index>PK_public\u002EEvents</underlying-index>
+        <primary>1</primary>
+      </key>
+      <column id="243" parent="47" name="PhotoEventID">
+        <state-number>664</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer|0</data-type>
+        <default-expression>nextval(&apos;&quot;PhotoEvents_PhotoEventID_seq&quot;&apos;::regclass)</default-expression>
+      </column>
+      <column id="244" parent="47" name="PhotoID">
+        <state-number>664</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer|0</data-type>
+        <default-expression>0</default-expression>
+      </column>
+      <column id="245" parent="47" name="EventID">
+        <state-number>664</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer|0</data-type>
+        <default-expression>0</default-expression>
+      </column>
+      <index id="246" parent="47" name="PK_public.PhotoEvents">
+        <object-id>16492</object-id>
+        <columns>PhotoEventID</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="247" parent="47" name="PhotoEvents_IX_PhotoID">
+        <object-id>16494</object-id>
+        <columns>PhotoID</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="248" parent="47" name="PhotoEvents_IX_EventID">
+        <object-id>16495</object-id>
+        <columns>EventID</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="249" parent="47" name="PK_public.PhotoEvents">
+        <object-id>16493</object-id>
+        <columns>PhotoEventID</columns>
+        <underlying-index>PK_public\u002EPhotoEvents</underlying-index>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="250" parent="47" name="FK_public.PhotoEvents_public.Photos_PhotoID">
+        <object-id>16578</object-id>
+        <columns>PhotoID</columns>
+        <ref-key>~.Photos.PK_public\u002EPhotos</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="251" parent="47" name="FK_public.PhotoEvents_public.Events_EventID">
+        <object-id>16573</object-id>
+        <columns>EventID</columns>
+        <ref-key>~.Events.PK_public\u002EEvents</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="252" parent="48" name="PhotoID">
+        <state-number>664</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer|0</data-type>
+        <default-expression>nextval(&apos;&quot;Photos_PhotoID_seq&quot;&apos;::regclass)</default-expression>
+      </column>
+      <column id="253" parent="48" name="Source">
+        <state-number>664</state-number>
+        <data-type>text|0</data-type>
+      </column>
+      <column id="254" parent="48" name="Text">
+        <state-number>664</state-number>
+        <data-type>text|0</data-type>
+      </column>
+      <index id="255" parent="48" name="PK_public.Photos">
+        <object-id>16505</object-id>
+        <columns>PhotoID</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="256" parent="48" name="PK_public.Photos">
+        <object-id>16506</object-id>
+        <columns>PhotoID</columns>
+        <underlying-index>PK_public\u002EPhotos</underlying-index>
+        <primary>1</primary>
+      </key>
+      <column id="257" parent="49" name="PlaceID">
+        <state-number>664</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer|0</data-type>
+        <default-expression>nextval(&apos;&quot;Places_PlaceID_seq&quot;&apos;::regclass)</default-expression>
+      </column>
+      <column id="258" parent="49" name="Latitude">
+        <state-number>664</state-number>
+        <mandatory>1</mandatory>
+        <data-type>real|0</data-type>
+        <default-expression>0</default-expression>
+      </column>
+      <column id="259" parent="49" name="Longitude">
+        <state-number>664</state-number>
+        <mandatory>1</mandatory>
+        <data-type>real|0</data-type>
+        <default-expression>0</default-expression>
+      </column>
+      <column id="260" parent="49" name="Name">
+        <state-number>664</state-number>
+        <data-type>text|0</data-type>
+      </column>
+      <index id="261" parent="49" name="PK_public.Places">
+        <object-id>16518</object-id>
+        <columns>PlaceID</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="262" parent="49" name="PK_public.Places">
+        <object-id>16519</object-id>
+        <columns>PlaceID</columns>
+        <underlying-index>PK_public\u002EPlaces</underlying-index>
+        <primary>1</primary>
+      </key>
+      <column id="263" parent="50" name="UserEventID">
+        <state-number>721</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer|0</data-type>
+        <default-expression>nextval(&apos;dbo.&quot;UserEvents_UserEventID_seq&quot;&apos;::regclass)</default-expression>
+      </column>
+      <column id="264" parent="50" name="EventID">
+        <state-number>721</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer|0</data-type>
+        <default-expression>0</default-expression>
+      </column>
+      <column id="265" parent="50" name="Points">
+        <state-number>721</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer|0</data-type>
+        <default-expression>0</default-expression>
+      </column>
+      <column id="266" parent="50" name="UserID">
+        <state-number>952</state-number>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <index id="267" parent="50" name="PK_dbo.UserEvents">
+        <object-id>16616</object-id>
+        <columns>UserEventID</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="268" parent="50" name="UserEvents_IX_EventID">
+        <object-id>16618</object-id>
+        <columns>EventID</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="269" parent="50" name="UserEvents_IX_User_Id">
+        <object-id>16619</object-id>
+        <columns>UserID</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="270" parent="50" name="UserEvents_IX_UserID">
+        <object-id>16677</object-id>
+        <columns>?</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="271" parent="50" name="PK_dbo.UserEvents">
+        <object-id>16617</object-id>
+        <columns>UserEventID</columns>
+        <underlying-index>PK_dbo\u002EUserEvents</underlying-index>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="272" parent="50" name="FK_dbo.UserEvents_dbo.Events_EventID">
+        <object-id>16620</object-id>
+        <columns>Points</columns>
+        <ref-key>~.Events.PK_public\u002EEvents</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="273" parent="50" name="FK_dbo.UserEvents_dbo.AspNetUsers_User_Id">
+        <object-id>16672</object-id>
+        <columns>?</columns>
+        <ref-key>~.AspNetUsers.PK_public\u002EAspNetUsers</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+    </database-model>
+  </data-source>
+</component>
