@@ -1,33 +1,32 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Microsoft.EntityFrameworkCore;
 using WebApi.Models;
 
 namespace WebApi.Repository
 {
-    public class ActivityRepository : IActivityRepository
+    public class PhotoRepository :IPhotoRepository
     {
         private MyDbContext _db;
 
 
-        public ActivityRepository(MyDbContext dbContext)
+        public PhotoRepository(MyDbContext dbContext)
         {
             _db = dbContext;
         }
 
-        public void Add(Activity activity)
+        public void Add(Photo photo)
         {
             throw new System.NotImplementedException();
         }
 
-        public IEnumerable<Activity> GetAll()
+        public IEnumerable<Photo> GetAll()
         {
-            return _db.Activities.ToList();
+            return _db.Photos.ToList();
         }
 
-        public Activity Find(int key)
+        public Photo Find(int key)
         {
-            return _db.Activities.Include(a=>a.Place).FirstOrDefault(a => a.ActivityID == key);
+            return _db.Photos.FirstOrDefault(p => p.PhotoID == key);
         }
 
         public bool CheckValidUserKey(string reqkey)

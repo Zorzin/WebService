@@ -4,8 +4,8 @@
     <data-source name="PostgreSQL - events@46.101.230.219" uuid="06426052-9ed6-4eaa-8de0-bfdcd10e6be3">
       <secret-storage>master_key</secret-storage>
       <user-name>postgres</user-name>
-      <introspection-scope>events:public,pg_catalog,postgres</introspection-scope>
-      <resolve-scope>events:public,postgres</resolve-scope>
+      <introspection-scope>events:pg_catalog,postgres,public</introspection-scope>
+      <resolve-scope>events:postgres,public</resolve-scope>
     </data-source>
   </component>
 </project>

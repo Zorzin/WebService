@@ -37,8 +37,8 @@
       <schema id="9" parent="1" name="dbo">
         <object-id>16606</object-id>
         <visible>1</visible>
-        <introspection-state-number>952</introspection-state-number>
-        <introspection-timestamp>2016-12-18.21:38:55.725</introspection-timestamp>
+        <introspection-state-number>1010</introspection-state-number>
+        <introspection-timestamp>2016-12-19.11:55:34.807</introspection-timestamp>
       </schema>
       <sequence id="10" parent="3" name="Activities_ActivityID_seq">
         <object-id>16775</object-id>
@@ -162,7 +162,7 @@
       </table>
       <table id="40" parent="9" name="Activities">
         <object-id>16387</object-id>
-        <state-number>946</state-number>
+        <state-number>1010</state-number>
       </table>
       <table id="41" parent="9" name="AspNetRoles">
         <object-id>16520</object-id>
@@ -918,15 +918,15 @@ ContextKey</columns>
         <data-type>integer|0</data-type>
         <default-expression>0</default-expression>
       </column>
-      <column id="183" parent="40" name="Title">
-        <state-number>691</state-number>
-        <data-type>text|0</data-type>
-      </column>
-      <column id="184" parent="40" name="Gameable">
-        <state-number>946</state-number>
+      <column id="183" parent="40" name="Gameable">
+        <state-number>1010</state-number>
         <mandatory>1</mandatory>
         <data-type>boolean|0</data-type>
         <default-expression>false</default-expression>
+      </column>
+      <column id="184" parent="40" name="Title">
+        <state-number>691</state-number>
+        <data-type>text|0</data-type>
       </column>
       <index id="185" parent="40" name="PK_public.Activities">
         <object-id>16399</object-id>
@@ -941,7 +941,7 @@ ContextKey</columns>
       </index>
       <index id="187" parent="40" name="Activities_IX_EventID">
         <object-id>16402</object-id>
-        <columns>Title</columns>
+        <columns>Gameable</columns>
         <desc-columns></desc-columns>
       </index>
       <key id="188" parent="40" name="PK_public.Activities">
@@ -959,7 +959,7 @@ ContextKey</columns>
       </foreign-key>
       <foreign-key id="190" parent="40" name="FK_public.Activities_public.Events_EventID">
         <object-id>16528</object-id>
-        <columns>Title</columns>
+        <columns>Gameable</columns>
         <ref-key>~.Events.PK_public\u002EEvents</ref-key>
         <cascade-update-rule>restrict</cascade-update-rule>
         <cascade-delete-rule>restrict</cascade-delete-rule>
