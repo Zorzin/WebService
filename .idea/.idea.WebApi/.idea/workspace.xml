@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f30802f3-1197-4ceb-b59f-27216339e501" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.idea.WebApi/.idea/.name" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.WebApi/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/.idea.WebApi/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.WebApi/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/.idea.WebApi/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.WebApi/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/.idea.WebApi/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.WebApi/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/.idea.WebApi/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.WebApi/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.WebApi/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebApi/appsettings.json" afterPath="$PROJECT_DIR$/WebApi/appsettings.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebApi/project.json" afterPath="$PROJECT_DIR$/WebApi/project.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebApi/project.lock.json" afterPath="$PROJECT_DIR$/WebApi/project.lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebApi/web.config" afterPath="$PROJECT_DIR$/WebApi/web.config" />
-    </list>
+    <list default="true" id="f30802f3-1197-4ceb-b59f-27216339e501" name="Default" comment="" />
     <ignored path="WebApi.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -82,11 +71,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="appsettings.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="appsettings.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebApi/appsettings.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="150">
+              <caret line="10" column="68" lean-forward="true" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="68" />
               <folding>
                 <marker date="1482357813000" expanded="true" signature="0:313" ph="{...}" />
                 <marker date="1482357813000" expanded="true" signature="15:162" ph="{...}" />
@@ -97,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="project.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebApi/project.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="803">
-              <caret line="59" column="6" lean-forward="false" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
+            <state relative-caret-position="645">
+              <caret line="43" column="38" lean-forward="true" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
               <folding>
                 <marker date="1482428636000" expanded="true" signature="0:1972" ph="{...}" />
                 <marker date="1482428636000" expanded="true" signature="20:1148" ph="{...}" />
@@ -273,12 +262,12 @@
       <workItem from="1482141862645" duration="14324000" />
       <workItem from="1482229126362" duration="2142000" />
       <workItem from="1482357794579" duration="525000" />
-      <workItem from="1482426445741" duration="1133000" />
+      <workItem from="1482426445741" duration="1759000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34013000" />
+    <option name="totallyTimeSpent" value="34639000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -392,23 +381,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebApi/appsettings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1482357813000" expanded="true" signature="0:313" ph="{...}" />
-            <marker date="1482357813000" expanded="true" signature="15:162" ph="{...}" />
-            <marker date="1482357813000" expanded="true" signature="61:158" ph="{...}" />
-            <marker date="1482357813000" expanded="true" signature="173:311" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebApi/project.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="803">
-          <caret line="59" column="6" lean-forward="false" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
+        <state relative-caret-position="645">
+          <caret line="43" column="38" lean-forward="true" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
           <folding>
             <marker date="1482428636000" expanded="true" signature="0:1972" ph="{...}" />
             <marker date="1482428636000" expanded="true" signature="20:1148" ph="{...}" />
@@ -424,6 +400,19 @@
             <marker date="1482428636000" expanded="true" signature="1717:1828" ph="{...}" />
             <marker date="1482428636000" expanded="true" signature="1734:1824" ph="[...]" />
             <marker date="1482428636000" expanded="true" signature="1843:1970" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApi/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="68" lean-forward="true" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="68" />
+          <folding>
+            <marker date="1482357813000" expanded="true" signature="0:313" ph="{...}" />
+            <marker date="1482357813000" expanded="true" signature="15:162" ph="{...}" />
+            <marker date="1482357813000" expanded="true" signature="61:158" ph="{...}" />
+            <marker date="1482357813000" expanded="true" signature="173:311" ph="{...}" />
           </folding>
         </state>
       </provider>
