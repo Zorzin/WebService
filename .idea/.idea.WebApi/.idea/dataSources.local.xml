@@ -2,9 +2,12 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="PostgreSQL - events@46.101.230.219" uuid="06426052-9ed6-4eaa-8de0-bfdcd10e6be3">
+      <database-info product="PostgreSQL" version="9.5.5" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <user-name>postgres</user-name>
-      <introspection-scope>events:pg_catalog,postgres,public</introspection-scope>
       <resolve-scope>events:postgres,public</resolve-scope>
     </data-source>
   </component>

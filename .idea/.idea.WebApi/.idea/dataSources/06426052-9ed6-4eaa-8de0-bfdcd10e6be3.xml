@@ -1,0 +1,1389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="PostgreSQL - events@46.101.230.219">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.0">
+    <root id="1"/>
+    <database id="2" parent="1" name="events">
+      <ObjectId>16384</ObjectId>
+      <Visible>1</Visible>
+    </database>
+    <database id="3" parent="1" name="postgres">
+      <ObjectId>12413</ObjectId>
+    </database>
+    <schema id="4" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <IntrospectionTimestamp>2016-12-18.21:38:55.725</IntrospectionTimestamp>
+      <IntrospectionStateNumber>954</IntrospectionStateNumber>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="5" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="6" parent="2" name="pg_toast">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="7" parent="2" name="pg_temp_1">
+      <ObjectId>11816</ObjectId>
+    </schema>
+    <schema id="8" parent="2" name="pg_toast_temp_1">
+      <ObjectId>11817</ObjectId>
+    </schema>
+    <schema id="9" parent="2" name="information_schema">
+      <ObjectId>12121</ObjectId>
+    </schema>
+    <schema id="10" parent="2" name="dbo">
+      <ObjectId>16606</ObjectId>
+      <IntrospectionTimestamp>2016-12-19.11:55:34.807</IntrospectionTimestamp>
+      <IntrospectionStateNumber>1010</IntrospectionStateNumber>
+      <Visible>1</Visible>
+    </schema>
+    <sequence id="11" parent="4" name="Activities_ActivityID_seq">
+      <ObjectId>16775</ObjectId>
+      <StateNumber>954</StateNumber>
+    </sequence>
+    <sequence id="12" parent="4" name="AspNetRoleClaims_Id_seq">
+      <ObjectId>16741</ObjectId>
+      <StateNumber>954</StateNumber>
+    </sequence>
+    <sequence id="13" parent="4" name="AspNetUserClaims_Id_seq">
+      <ObjectId>16796</ObjectId>
+      <StateNumber>954</StateNumber>
+    </sequence>
+    <sequence id="14" parent="4" name="Events_EventID_seq">
+      <ObjectId>16684</ObjectId>
+      <StateNumber>954</StateNumber>
+    </sequence>
+    <sequence id="15" parent="4" name="PhotoEvents_PhotoEventID_seq">
+      <ObjectId>16757</ObjectId>
+      <StateNumber>954</StateNumber>
+    </sequence>
+    <sequence id="16" parent="4" name="Photos_PhotoID_seq">
+      <ObjectId>16711</ObjectId>
+      <StateNumber>954</StateNumber>
+    </sequence>
+    <sequence id="17" parent="4" name="Places_PlaceID_seq">
+      <ObjectId>16722</ObjectId>
+      <StateNumber>954</StateNumber>
+    </sequence>
+    <sequence id="18" parent="4" name="UserEvents_UserEventID_seq">
+      <ObjectId>16843</ObjectId>
+      <StateNumber>954</StateNumber>
+    </sequence>
+    <table id="19" parent="4" name="__EFMigrationsHistory">
+      <ObjectId>16679</ObjectId>
+      <StateNumber>953</StateNumber>
+    </table>
+    <table id="20" parent="4" name="Activities">
+      <ObjectId>16777</ObjectId>
+      <StateNumber>954</StateNumber>
+    </table>
+    <table id="21" parent="4" name="AspNetRoleClaims">
+      <ObjectId>16743</ObjectId>
+      <StateNumber>954</StateNumber>
+    </table>
+    <table id="22" parent="4" name="AspNetRoles">
+      <ObjectId>16695</ObjectId>
+      <StateNumber>954</StateNumber>
+    </table>
+    <table id="23" parent="4" name="AspNetUserClaims">
+      <ObjectId>16798</ObjectId>
+      <StateNumber>954</StateNumber>
+    </table>
+    <table id="24" parent="4" name="AspNetUserLogins">
+      <ObjectId>16812</ObjectId>
+      <StateNumber>954</StateNumber>
+    </table>
+    <table id="25" parent="4" name="AspNetUserRoles">
+      <ObjectId>16825</ObjectId>
+      <StateNumber>954</StateNumber>
+    </table>
+    <table id="26" parent="4" name="AspNetUsers">
+      <ObjectId>16733</ObjectId>
+      <StateNumber>954</StateNumber>
+    </table>
+    <table id="27" parent="4" name="AspNetUserTokens">
+      <ObjectId>16703</ObjectId>
+      <StateNumber>954</StateNumber>
+    </table>
+    <table id="28" parent="4" name="Events">
+      <ObjectId>16686</ObjectId>
+      <StateNumber>954</StateNumber>
+    </table>
+    <table id="29" parent="4" name="PhotoEvents">
+      <ObjectId>16759</ObjectId>
+      <StateNumber>954</StateNumber>
+    </table>
+    <table id="30" parent="4" name="Photos">
+      <ObjectId>16713</ObjectId>
+      <StateNumber>954</StateNumber>
+    </table>
+    <table id="31" parent="4" name="Places">
+      <ObjectId>16724</ObjectId>
+      <StateNumber>954</StateNumber>
+    </table>
+    <table id="32" parent="4" name="UserEvents">
+      <ObjectId>16845</ObjectId>
+      <StateNumber>954</StateNumber>
+    </table>
+    <sequence id="33" parent="10" name="Activities_ActivityID_seq">
+      <ObjectId>16385</ObjectId>
+      <StateNumber>721</StateNumber>
+    </sequence>
+    <sequence id="34" parent="10" name="AspNetUserClaims_Id_seq">
+      <ObjectId>16453</ObjectId>
+      <StateNumber>721</StateNumber>
+    </sequence>
+    <sequence id="35" parent="10" name="Events_EventID_seq">
+      <ObjectId>16403</ObjectId>
+      <StateNumber>721</StateNumber>
+    </sequence>
+    <sequence id="36" parent="10" name="PhotoEvents_PhotoEventID_seq">
+      <ObjectId>16484</ObjectId>
+      <StateNumber>721</StateNumber>
+    </sequence>
+    <sequence id="37" parent="10" name="Photos_PhotoID_seq">
+      <ObjectId>16496</ObjectId>
+      <StateNumber>721</StateNumber>
+    </sequence>
+    <sequence id="38" parent="10" name="Places_PlaceID_seq">
+      <ObjectId>16507</ObjectId>
+      <StateNumber>721</StateNumber>
+    </sequence>
+    <sequence id="39" parent="10" name="UserEvents_UserEventID_seq">
+      <ObjectId>16607</ObjectId>
+      <StateNumber>721</StateNumber>
+    </sequence>
+    <table id="40" parent="10" name="__MigrationHistory">
+      <ObjectId>16583</ObjectId>
+      <StateNumber>721</StateNumber>
+    </table>
+    <table id="41" parent="10" name="Activities">
+      <ObjectId>16387</ObjectId>
+      <StateNumber>1010</StateNumber>
+    </table>
+    <table id="42" parent="10" name="AspNetRoles">
+      <ObjectId>16520</ObjectId>
+      <StateNumber>721</StateNumber>
+    </table>
+    <table id="43" parent="10" name="AspNetUserClaims">
+      <ObjectId>16455</ObjectId>
+      <StateNumber>721</StateNumber>
+    </table>
+    <table id="44" parent="10" name="AspNetUserLogins">
+      <ObjectId>16466</ObjectId>
+      <StateNumber>721</StateNumber>
+    </table>
+    <table id="45" parent="10" name="AspNetUserRoles">
+      <ObjectId>16475</ObjectId>
+      <StateNumber>721</StateNumber>
+    </table>
+    <table id="46" parent="10" name="AspNetUsers">
+      <ObjectId>16437</ObjectId>
+      <StateNumber>952</StateNumber>
+    </table>
+    <table id="47" parent="10" name="Events">
+      <ObjectId>16405</ObjectId>
+      <StateNumber>893</StateNumber>
+    </table>
+    <table id="48" parent="10" name="PhotoEvents">
+      <ObjectId>16486</ObjectId>
+      <StateNumber>721</StateNumber>
+    </table>
+    <table id="49" parent="10" name="Photos">
+      <ObjectId>16498</ObjectId>
+      <StateNumber>721</StateNumber>
+    </table>
+    <table id="50" parent="10" name="Places">
+      <ObjectId>16509</ObjectId>
+      <StateNumber>721</StateNumber>
+    </table>
+    <table id="51" parent="10" name="UserEvents">
+      <ObjectId>16609</ObjectId>
+      <StateNumber>952</StateNumber>
+    </table>
+    <column id="52" parent="19" name="MigrationId">
+      <DataType>varchar(150)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>953</StateNumber>
+    </column>
+    <column id="53" parent="19" name="ProductVersion">
+      <DataType>varchar(32)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>953</StateNumber>
+    </column>
+    <index id="54" parent="19" name="PK___EFMigrationsHistory">
+      <ObjectId>16682</ObjectId>
+      <ColNames>MigrationId</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="55" parent="19" name="PK___EFMigrationsHistory">
+      <ObjectId>16683</ObjectId>
+      <ColNames>MigrationId</ColNames>
+      <UnderlyingIndexName>PK___EFMigrationsHistory</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="56" parent="20" name="ActivityID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+      <DefaultExpression>nextval(&apos;&quot;Activities_ActivityID_seq&quot;&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="57" parent="20" name="EndHour">
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="58" parent="20" name="EventID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="59" parent="20" name="GamePoint">
+      <DataType>boolean|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="60" parent="20" name="PlaceID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="61" parent="20" name="StartHour">
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="62" parent="20" name="Text">
+      <DataType>text|0</DataType>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="63" parent="20" name="Title">
+      <DataType>text|0</DataType>
+      <StateNumber>954</StateNumber>
+    </column>
+    <index id="64" parent="20" name="PK_Activities">
+      <ObjectId>16784</ObjectId>
+      <ColNames>ActivityID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="65" parent="20" name="IX_Activities_EventID">
+      <ObjectId>16864</ObjectId>
+      <ColNames>EventID</ColNames>
+    </index>
+    <index id="66" parent="20" name="IX_Activities_PlaceID">
+      <ObjectId>16865</ObjectId>
+      <ColNames>PlaceID</ColNames>
+    </index>
+    <key id="67" parent="20" name="PK_Activities">
+      <ObjectId>16785</ObjectId>
+      <ColNames>ActivityID</ColNames>
+      <UnderlyingIndexName>PK_Activities</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="68" parent="20" name="FK_Activities_Events_EventID">
+      <ObjectId>16786</ObjectId>
+      <ColNames>EventID</ColNames>
+      <RefTableName>Events</RefTableName>
+      <RefKeyName>PK_Events</RefKeyName>
+      <RefColNames>EventID</RefColNames>
+    </foreign-key>
+    <foreign-key id="69" parent="20" name="FK_Activities_Places_PlaceID">
+      <ObjectId>16791</ObjectId>
+      <ColNames>PlaceID</ColNames>
+      <RefTableName>Places</RefTableName>
+      <RefKeyName>PK_Places</RefKeyName>
+      <RefColNames>PlaceID</RefColNames>
+    </foreign-key>
+    <column id="70" parent="21" name="Id">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+      <DefaultExpression>nextval(&apos;&quot;AspNetRoleClaims_Id_seq&quot;&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="71" parent="21" name="ClaimType">
+      <DataType>text|0</DataType>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="72" parent="21" name="ClaimValue">
+      <DataType>text|0</DataType>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="73" parent="21" name="RoleId">
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+    </column>
+    <index id="74" parent="21" name="PK_AspNetRoleClaims">
+      <ObjectId>16750</ObjectId>
+      <ColNames>Id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="75" parent="21" name="IX_AspNetRoleClaims_RoleId">
+      <ObjectId>16867</ObjectId>
+      <ColNames>RoleId</ColNames>
+    </index>
+    <key id="76" parent="21" name="PK_AspNetRoleClaims">
+      <ObjectId>16751</ObjectId>
+      <ColNames>Id</ColNames>
+      <UnderlyingIndexName>PK_AspNetRoleClaims</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="77" parent="21" name="FK_AspNetRoleClaims_AspNetRoles_RoleId">
+      <ObjectId>16752</ObjectId>
+      <ColNames>RoleId</ColNames>
+      <RefTableName>AspNetRoles</RefTableName>
+      <RefKeyName>PK_AspNetRoles</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <column id="78" parent="22" name="Id">
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="79" parent="22" name="ConcurrencyStamp">
+      <DataType>text|0</DataType>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="80" parent="22" name="Name">
+      <DataType>varchar(256)|0</DataType>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="81" parent="22" name="NormalizedName">
+      <DataType>varchar(256)|0</DataType>
+      <StateNumber>954</StateNumber>
+    </column>
+    <index id="82" parent="22" name="PK_AspNetRoles">
+      <ObjectId>16701</ObjectId>
+      <ColNames>Id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="83" parent="22" name="RoleNameIndex">
+      <ObjectId>16866</ObjectId>
+      <ColNames>NormalizedName</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="84" parent="22" name="PK_AspNetRoles">
+      <ObjectId>16702</ObjectId>
+      <ColNames>Id</ColNames>
+      <UnderlyingIndexName>PK_AspNetRoles</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="85" parent="23" name="Id">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+      <DefaultExpression>nextval(&apos;&quot;AspNetUserClaims_Id_seq&quot;&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="86" parent="23" name="ClaimType">
+      <DataType>text|0</DataType>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="87" parent="23" name="ClaimValue">
+      <DataType>text|0</DataType>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="88" parent="23" name="UserId">
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+    </column>
+    <index id="89" parent="23" name="PK_AspNetUserClaims">
+      <ObjectId>16805</ObjectId>
+      <ColNames>Id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="90" parent="23" name="IX_AspNetUserClaims_UserId">
+      <ObjectId>16868</ObjectId>
+      <ColNames>UserId</ColNames>
+    </index>
+    <key id="91" parent="23" name="PK_AspNetUserClaims">
+      <ObjectId>16806</ObjectId>
+      <ColNames>Id</ColNames>
+      <UnderlyingIndexName>PK_AspNetUserClaims</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="92" parent="23" name="FK_AspNetUserClaims_AspNetUsers_UserId">
+      <ObjectId>16807</ObjectId>
+      <ColNames>UserId</ColNames>
+      <RefTableName>AspNetUsers</RefTableName>
+      <RefKeyName>PK_AspNetUsers</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <column id="93" parent="24" name="LoginProvider">
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="94" parent="24" name="ProviderKey">
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="95" parent="24" name="ProviderDisplayName">
+      <DataType>text|0</DataType>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="96" parent="24" name="UserId">
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+    </column>
+    <index id="97" parent="24" name="PK_AspNetUserLogins">
+      <ObjectId>16818</ObjectId>
+      <ColNames>LoginProvider
+ProviderKey</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="98" parent="24" name="IX_AspNetUserLogins_UserId">
+      <ObjectId>16869</ObjectId>
+      <ColNames>UserId</ColNames>
+    </index>
+    <key id="99" parent="24" name="PK_AspNetUserLogins">
+      <ObjectId>16819</ObjectId>
+      <ColNames>LoginProvider
+ProviderKey</ColNames>
+      <UnderlyingIndexName>PK_AspNetUserLogins</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="100" parent="24" name="FK_AspNetUserLogins_AspNetUsers_UserId">
+      <ObjectId>16820</ObjectId>
+      <ColNames>UserId</ColNames>
+      <RefTableName>AspNetUsers</RefTableName>
+      <RefKeyName>PK_AspNetUsers</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <column id="101" parent="25" name="UserId">
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="102" parent="25" name="RoleId">
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+    </column>
+    <index id="103" parent="25" name="PK_AspNetUserRoles">
+      <ObjectId>16831</ObjectId>
+      <ColNames>UserId
+RoleId</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="104" parent="25" name="IX_AspNetUserRoles_RoleId">
+      <ObjectId>16870</ObjectId>
+      <ColNames>RoleId</ColNames>
+    </index>
+    <key id="105" parent="25" name="PK_AspNetUserRoles">
+      <ObjectId>16832</ObjectId>
+      <ColNames>UserId
+RoleId</ColNames>
+      <UnderlyingIndexName>PK_AspNetUserRoles</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="106" parent="25" name="FK_AspNetUserRoles_AspNetUsers_UserId">
+      <ObjectId>16838</ObjectId>
+      <ColNames>UserId</ColNames>
+      <RefTableName>AspNetUsers</RefTableName>
+      <RefKeyName>PK_AspNetUsers</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="107" parent="25" name="FK_AspNetUserRoles_AspNetRoles_RoleId">
+      <ObjectId>16833</ObjectId>
+      <ColNames>RoleId</ColNames>
+      <RefTableName>AspNetRoles</RefTableName>
+      <RefKeyName>PK_AspNetRoles</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <column id="108" parent="26" name="Id">
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="109" parent="26" name="AccessFailedCount">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="110" parent="26" name="ConcurrencyStamp">
+      <DataType>text|0</DataType>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="111" parent="26" name="Email">
+      <DataType>varchar(256)|0</DataType>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="112" parent="26" name="EmailConfirmed">
+      <DataType>boolean|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="113" parent="26" name="LockoutEnabled">
+      <DataType>boolean|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="114" parent="26" name="LockoutEnd">
+      <DataType>timestamp with time zone|0</DataType>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="115" parent="26" name="NormalizedEmail">
+      <DataType>varchar(256)|0</DataType>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="116" parent="26" name="NormalizedUserName">
+      <DataType>varchar(256)|0</DataType>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="117" parent="26" name="PasswordHash">
+      <DataType>text|0</DataType>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="118" parent="26" name="PhoneNumber">
+      <DataType>text|0</DataType>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="119" parent="26" name="PhoneNumberConfirmed">
+      <DataType>boolean|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="120" parent="26" name="SecurityStamp">
+      <DataType>text|0</DataType>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="121" parent="26" name="TwoFactorEnabled">
+      <DataType>boolean|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="122" parent="26" name="UserName">
+      <DataType>varchar(256)|0</DataType>
+      <StateNumber>954</StateNumber>
+    </column>
+    <index id="123" parent="26" name="PK_AspNetUsers">
+      <ObjectId>16739</ObjectId>
+      <ColNames>Id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="124" parent="26" name="UserNameIndex">
+      <ObjectId>16876</ObjectId>
+      <ColNames>NormalizedUserName</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="125" parent="26" name="EmailIndex">
+      <ObjectId>16875</ObjectId>
+      <ColNames>NormalizedEmail</ColNames>
+    </index>
+    <key id="126" parent="26" name="PK_AspNetUsers">
+      <ObjectId>16740</ObjectId>
+      <ColNames>Id</ColNames>
+      <UnderlyingIndexName>PK_AspNetUsers</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="127" parent="27" name="UserId">
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="128" parent="27" name="LoginProvider">
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="129" parent="27" name="Name">
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="130" parent="27" name="Value">
+      <DataType>text|0</DataType>
+      <StateNumber>954</StateNumber>
+    </column>
+    <index id="131" parent="27" name="PK_AspNetUserTokens">
+      <ObjectId>16709</ObjectId>
+      <ColNames>UserId
+LoginProvider
+Name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="132" parent="27" name="PK_AspNetUserTokens">
+      <ObjectId>16710</ObjectId>
+      <ColNames>UserId
+LoginProvider
+Name</ColNames>
+      <UnderlyingIndexName>PK_AspNetUserTokens</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="133" parent="28" name="EventID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+      <DefaultExpression>nextval(&apos;&quot;Events_EventID_seq&quot;&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="134" parent="28" name="Active">
+      <DataType>boolean|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="135" parent="28" name="Date">
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="136" parent="28" name="Gameable">
+      <DataType>boolean|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="137" parent="28" name="Text">
+      <DataType>text|0</DataType>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="138" parent="28" name="Title">
+      <DataType>text|0</DataType>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="139" parent="28" name="Viewable">
+      <DataType>boolean|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+    </column>
+    <index id="140" parent="28" name="PK_Events">
+      <ObjectId>16693</ObjectId>
+      <ColNames>EventID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="141" parent="28" name="PK_Events">
+      <ObjectId>16694</ObjectId>
+      <ColNames>EventID</ColNames>
+      <UnderlyingIndexName>PK_Events</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="142" parent="29" name="PhotoEventID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+      <DefaultExpression>nextval(&apos;&quot;PhotoEvents_PhotoEventID_seq&quot;&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="143" parent="29" name="EventID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="144" parent="29" name="PhotoID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+    </column>
+    <index id="145" parent="29" name="PK_PhotoEvents">
+      <ObjectId>16763</ObjectId>
+      <ColNames>PhotoEventID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="146" parent="29" name="IX_PhotoEvents_EventID">
+      <ObjectId>16871</ObjectId>
+      <ColNames>EventID</ColNames>
+    </index>
+    <index id="147" parent="29" name="IX_PhotoEvents_PhotoID">
+      <ObjectId>16872</ObjectId>
+      <ColNames>PhotoID</ColNames>
+    </index>
+    <key id="148" parent="29" name="PK_PhotoEvents">
+      <ObjectId>16764</ObjectId>
+      <ColNames>PhotoEventID</ColNames>
+      <UnderlyingIndexName>PK_PhotoEvents</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="149" parent="29" name="FK_PhotoEvents_Events_EventID">
+      <ObjectId>16765</ObjectId>
+      <ColNames>EventID</ColNames>
+      <RefTableName>Events</RefTableName>
+      <RefKeyName>PK_Events</RefKeyName>
+      <RefColNames>EventID</RefColNames>
+    </foreign-key>
+    <foreign-key id="150" parent="29" name="FK_PhotoEvents_Photos_PhotoID">
+      <ObjectId>16770</ObjectId>
+      <ColNames>PhotoID</ColNames>
+      <RefTableName>Photos</RefTableName>
+      <RefKeyName>PK_Photos</RefKeyName>
+      <RefColNames>PhotoID</RefColNames>
+    </foreign-key>
+    <column id="151" parent="30" name="PhotoID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+      <DefaultExpression>nextval(&apos;&quot;Photos_PhotoID_seq&quot;&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="152" parent="30" name="Source">
+      <DataType>text|0</DataType>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="153" parent="30" name="Text">
+      <DataType>text|0</DataType>
+      <StateNumber>954</StateNumber>
+    </column>
+    <index id="154" parent="30" name="PK_Photos">
+      <ObjectId>16720</ObjectId>
+      <ColNames>PhotoID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="155" parent="30" name="PK_Photos">
+      <ObjectId>16721</ObjectId>
+      <ColNames>PhotoID</ColNames>
+      <UnderlyingIndexName>PK_Photos</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="156" parent="31" name="PlaceID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+      <DefaultExpression>nextval(&apos;&quot;Places_PlaceID_seq&quot;&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="157" parent="31" name="Latitude">
+      <DataType>real|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="158" parent="31" name="Longitude">
+      <DataType>real|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="159" parent="31" name="Name">
+      <DataType>text|0</DataType>
+      <StateNumber>954</StateNumber>
+    </column>
+    <index id="160" parent="31" name="PK_Places">
+      <ObjectId>16731</ObjectId>
+      <ColNames>PlaceID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="161" parent="31" name="PK_Places">
+      <ObjectId>16732</ObjectId>
+      <ColNames>PlaceID</ColNames>
+      <UnderlyingIndexName>PK_Places</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="162" parent="32" name="UserEventID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+      <DefaultExpression>nextval(&apos;&quot;UserEvents_UserEventID_seq&quot;&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="163" parent="32" name="EventID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="164" parent="32" name="Points">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>954</StateNumber>
+    </column>
+    <column id="165" parent="32" name="UserID">
+      <DataType>text|0</DataType>
+      <StateNumber>954</StateNumber>
+    </column>
+    <index id="166" parent="32" name="PK_UserEvents">
+      <ObjectId>16852</ObjectId>
+      <ColNames>UserEventID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="167" parent="32" name="IX_UserEvents_EventID">
+      <ObjectId>16873</ObjectId>
+      <ColNames>EventID</ColNames>
+    </index>
+    <index id="168" parent="32" name="IX_UserEvents_UserID">
+      <ObjectId>16874</ObjectId>
+      <ColNames>UserID</ColNames>
+    </index>
+    <key id="169" parent="32" name="PK_UserEvents">
+      <ObjectId>16853</ObjectId>
+      <ColNames>UserEventID</ColNames>
+      <UnderlyingIndexName>PK_UserEvents</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="170" parent="32" name="FK_UserEvents_Events_EventID">
+      <ObjectId>16854</ObjectId>
+      <ColNames>EventID</ColNames>
+      <RefTableName>Events</RefTableName>
+      <RefKeyName>PK_Events</RefKeyName>
+      <RefColNames>EventID</RefColNames>
+    </foreign-key>
+    <foreign-key id="171" parent="32" name="FK_UserEvents_AspNetUsers_UserID">
+      <ObjectId>16859</ObjectId>
+      <ColNames>UserID</ColNames>
+      <RefTableName>AspNetUsers</RefTableName>
+      <RefKeyName>PK_AspNetUsers</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <column id="172" parent="40" name="MigrationId">
+      <DataType>varchar(150)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>664</StateNumber>
+      <DefaultExpression>&apos;&apos;::character varying</DefaultExpression>
+    </column>
+    <column id="173" parent="40" name="ContextKey">
+      <DataType>varchar(300)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>664</StateNumber>
+      <DefaultExpression>&apos;&apos;::character varying</DefaultExpression>
+    </column>
+    <column id="174" parent="40" name="Model">
+      <DataType>bytea|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>664</StateNumber>
+      <DefaultExpression>&apos;\x&apos;::bytea</DefaultExpression>
+    </column>
+    <column id="175" parent="40" name="ProductVersion">
+      <DataType>varchar(32)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>664</StateNumber>
+      <DefaultExpression>&apos;&apos;::character varying</DefaultExpression>
+    </column>
+    <index id="176" parent="40" name="PK_public.__MigrationHistory">
+      <ObjectId>16593</ObjectId>
+      <ColNames>MigrationId
+ContextKey</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="177" parent="40" name="PK_public.__MigrationHistory">
+      <ObjectId>16594</ObjectId>
+      <ColNames>MigrationId
+ContextKey</ColNames>
+      <UnderlyingIndexName>PK_public\u002E__MigrationHistory</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="178" parent="41" name="ActivityID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>664</StateNumber>
+      <DefaultExpression>nextval(&apos;&quot;Activities_ActivityID_seq&quot;&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="179" parent="41" name="Text">
+      <DataType>text|0</DataType>
+      <StateNumber>664</StateNumber>
+    </column>
+    <column id="180" parent="41" name="StartHour">
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>664</StateNumber>
+      <DefaultExpression>&apos;0001-01-01 00:00:00&apos;::timestamp without time zone</DefaultExpression>
+    </column>
+    <column id="181" parent="41" name="EndHour">
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>664</StateNumber>
+      <DefaultExpression>&apos;0001-01-01 00:00:00&apos;::timestamp without time zone</DefaultExpression>
+    </column>
+    <column id="182" parent="41" name="PlaceID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>664</StateNumber>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="183" parent="41" name="EventID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>664</StateNumber>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="184" parent="41" name="Gameable">
+      <DataType>boolean|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1010</StateNumber>
+      <DefaultExpression>false</DefaultExpression>
+    </column>
+    <column id="185" parent="41" name="Title">
+      <DataType>text|0</DataType>
+      <StateNumber>691</StateNumber>
+    </column>
+    <index id="186" parent="41" name="PK_public.Activities">
+      <ObjectId>16399</ObjectId>
+      <ColNames>ActivityID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="187" parent="41" name="Activities_IX_PlaceID">
+      <ObjectId>16401</ObjectId>
+      <ColNames>EventID</ColNames>
+    </index>
+    <index id="188" parent="41" name="Activities_IX_EventID">
+      <ObjectId>16402</ObjectId>
+      <ColNames>Gameable</ColNames>
+    </index>
+    <key id="189" parent="41" name="PK_public.Activities">
+      <ObjectId>16400</ObjectId>
+      <ColNames>ActivityID</ColNames>
+      <UnderlyingIndexName>PK_public\u002EActivities</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="190" parent="41" name="FK_public.Activities_public.Places_PlaceID">
+      <ObjectId>16533</ObjectId>
+      <ColNames>EventID</ColNames>
+      <RefTableName>Places</RefTableName>
+      <RefKeyName>PK_public.Places</RefKeyName>
+      <RefColNames>PlaceID</RefColNames>
+    </foreign-key>
+    <foreign-key id="191" parent="41" name="FK_public.Activities_public.Events_EventID">
+      <ObjectId>16528</ObjectId>
+      <ColNames>Gameable</ColNames>
+      <RefTableName>Events</RefTableName>
+      <RefKeyName>PK_public.Events</RefKeyName>
+      <RefColNames>EventID</RefColNames>
+    </foreign-key>
+    <column id="192" parent="42" name="Id">
+      <DataType>varchar(128)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>664</StateNumber>
+      <DefaultExpression>&apos;&apos;::character varying</DefaultExpression>
+    </column>
+    <column id="193" parent="42" name="Name">
+      <DataType>varchar(256)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>664</StateNumber>
+      <DefaultExpression>&apos;&apos;::character varying</DefaultExpression>
+    </column>
+    <index id="194" parent="42" name="PK_public.AspNetRoles">
+      <ObjectId>16525</ObjectId>
+      <ColNames>Id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="195" parent="42" name="AspNetRoles_RoleNameIndex">
+      <ObjectId>16527</ObjectId>
+      <ColNames>Name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="196" parent="42" name="PK_public.AspNetRoles">
+      <ObjectId>16526</ObjectId>
+      <ColNames>Id</ColNames>
+      <UnderlyingIndexName>PK_public\u002EAspNetRoles</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="197" parent="43" name="Id">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>664</StateNumber>
+      <DefaultExpression>nextval(&apos;&quot;AspNetUserClaims_Id_seq&quot;&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="198" parent="43" name="UserId">
+      <DataType>varchar(128)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>664</StateNumber>
+      <DefaultExpression>&apos;&apos;::character varying</DefaultExpression>
+    </column>
+    <column id="199" parent="43" name="ClaimType">
+      <DataType>text|0</DataType>
+      <StateNumber>664</StateNumber>
+    </column>
+    <column id="200" parent="43" name="ClaimValue">
+      <DataType>text|0</DataType>
+      <StateNumber>664</StateNumber>
+    </column>
+    <index id="201" parent="43" name="PK_public.AspNetUserClaims">
+      <ObjectId>16463</ObjectId>
+      <ColNames>Id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="202" parent="43" name="AspNetUserClaims_IX_UserId">
+      <ObjectId>16465</ObjectId>
+      <ColNames>UserId</ColNames>
+    </index>
+    <key id="203" parent="43" name="PK_public.AspNetUserClaims">
+      <ObjectId>16464</ObjectId>
+      <ColNames>Id</ColNames>
+      <UnderlyingIndexName>PK_public\u002EAspNetUserClaims</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="204" parent="43" name="FK_public.AspNetUserClaims_public.AspNetUsers_UserId">
+      <ObjectId>16553</ObjectId>
+      <ColNames>UserId</ColNames>
+      <RefTableName>AspNetUsers</RefTableName>
+      <RefKeyName>PK_public.AspNetUsers</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <column id="205" parent="44" name="LoginProvider">
+      <DataType>varchar(128)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>664</StateNumber>
+      <DefaultExpression>&apos;&apos;::character varying</DefaultExpression>
+    </column>
+    <column id="206" parent="44" name="ProviderKey">
+      <DataType>varchar(128)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>664</StateNumber>
+      <DefaultExpression>&apos;&apos;::character varying</DefaultExpression>
+    </column>
+    <column id="207" parent="44" name="UserId">
+      <DataType>varchar(128)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>664</StateNumber>
+      <DefaultExpression>&apos;&apos;::character varying</DefaultExpression>
+    </column>
+    <index id="208" parent="44" name="PK_public.AspNetUserLogins">
+      <ObjectId>16472</ObjectId>
+      <ColNames>LoginProvider
+ProviderKey
+UserId</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="209" parent="44" name="AspNetUserLogins_IX_UserId">
+      <ObjectId>16474</ObjectId>
+      <ColNames>UserId</ColNames>
+    </index>
+    <key id="210" parent="44" name="PK_public.AspNetUserLogins">
+      <ObjectId>16473</ObjectId>
+      <ColNames>LoginProvider
+ProviderKey
+UserId</ColNames>
+      <UnderlyingIndexName>PK_public\u002EAspNetUserLogins</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="211" parent="44" name="FK_public.AspNetUserLogins_public.AspNetUsers_UserId">
+      <ObjectId>16558</ObjectId>
+      <ColNames>UserId</ColNames>
+      <RefTableName>AspNetUsers</RefTableName>
+      <RefKeyName>PK_public.AspNetUsers</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <column id="212" parent="45" name="UserId">
+      <DataType>varchar(128)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>664</StateNumber>
+      <DefaultExpression>&apos;&apos;::character varying</DefaultExpression>
+    </column>
+    <column id="213" parent="45" name="RoleId">
+      <DataType>varchar(128)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>664</StateNumber>
+      <DefaultExpression>&apos;&apos;::character varying</DefaultExpression>
+    </column>
+    <index id="214" parent="45" name="PK_public.AspNetUserRoles">
+      <ObjectId>16480</ObjectId>
+      <ColNames>UserId
+RoleId</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="215" parent="45" name="AspNetUserRoles_IX_UserId">
+      <ObjectId>16482</ObjectId>
+      <ColNames>UserId</ColNames>
+    </index>
+    <index id="216" parent="45" name="AspNetUserRoles_IX_RoleId">
+      <ObjectId>16483</ObjectId>
+      <ColNames>RoleId</ColNames>
+    </index>
+    <key id="217" parent="45" name="PK_public.AspNetUserRoles">
+      <ObjectId>16481</ObjectId>
+      <ColNames>UserId
+RoleId</ColNames>
+      <UnderlyingIndexName>PK_public\u002EAspNetUserRoles</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="218" parent="45" name="FK_public.AspNetUserRoles_public.AspNetUsers_UserId">
+      <ObjectId>16563</ObjectId>
+      <ColNames>UserId</ColNames>
+      <RefTableName>AspNetUsers</RefTableName>
+      <RefKeyName>PK_public.AspNetUsers</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="219" parent="45" name="FK_public.AspNetUserRoles_public.AspNetRoles_RoleId">
+      <ObjectId>16568</ObjectId>
+      <ColNames>RoleId</ColNames>
+      <RefTableName>AspNetRoles</RefTableName>
+      <RefKeyName>PK_public.AspNetRoles</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <column id="220" parent="46" name="Id">
+      <DataType>varchar(128)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>664</StateNumber>
+      <DefaultExpression>&apos;&apos;::character varying</DefaultExpression>
+    </column>
+    <column id="221" parent="46" name="Email">
+      <DataType>varchar(256)|0</DataType>
+      <StateNumber>664</StateNumber>
+    </column>
+    <column id="222" parent="46" name="EmailConfirmed">
+      <DataType>boolean|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>664</StateNumber>
+      <DefaultExpression>false</DefaultExpression>
+    </column>
+    <column id="223" parent="46" name="PasswordHash">
+      <DataType>text|0</DataType>
+      <StateNumber>664</StateNumber>
+    </column>
+    <column id="224" parent="46" name="SecurityStamp">
+      <DataType>text|0</DataType>
+      <StateNumber>664</StateNumber>
+    </column>
+    <column id="225" parent="46" name="PhoneNumber">
+      <DataType>text|0</DataType>
+      <StateNumber>664</StateNumber>
+    </column>
+    <column id="226" parent="46" name="PhoneNumberConfirmed">
+      <DataType>boolean|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>664</StateNumber>
+      <DefaultExpression>false</DefaultExpression>
+    </column>
+    <column id="227" parent="46" name="TwoFactorEnabled">
+      <DataType>boolean|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>664</StateNumber>
+      <DefaultExpression>false</DefaultExpression>
+    </column>
+    <column id="228" parent="46" name="LockoutEndDateUtc">
+      <DataType>timestamp|0</DataType>
+      <StateNumber>664</StateNumber>
+    </column>
+    <column id="229" parent="46" name="LockoutEnabled">
+      <DataType>boolean|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>664</StateNumber>
+      <DefaultExpression>false</DefaultExpression>
+    </column>
+    <column id="230" parent="46" name="AccessFailedCount">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>664</StateNumber>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="231" parent="46" name="UserName">
+      <DataType>varchar(256)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>664</StateNumber>
+      <DefaultExpression>&apos;&apos;::character varying</DefaultExpression>
+    </column>
+    <index id="232" parent="46" name="PK_public.AspNetUsers">
+      <ObjectId>16450</ObjectId>
+      <ColNames>Id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="233" parent="46" name="AspNetUsers_UserNameIndex">
+      <ObjectId>16452</ObjectId>
+      <ColNames>UserName</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="234" parent="46" name="PK_public.AspNetUsers">
+      <ObjectId>16451</ObjectId>
+      <ColNames>Id</ColNames>
+      <UnderlyingIndexName>PK_public\u002EAspNetUsers</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="235" parent="47" name="EventID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>664</StateNumber>
+      <DefaultExpression>nextval(&apos;&quot;Events_EventID_seq&quot;&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="236" parent="47" name="Text">
+      <DataType>text|0</DataType>
+      <StateNumber>664</StateNumber>
+    </column>
+    <column id="237" parent="47" name="Active">
+      <DataType>boolean|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>664</StateNumber>
+      <DefaultExpression>false</DefaultExpression>
+    </column>
+    <column id="238" parent="47" name="Viewable">
+      <DataType>boolean|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>664</StateNumber>
+      <DefaultExpression>false</DefaultExpression>
+    </column>
+    <column id="239" parent="47" name="Title">
+      <DataType>text|0</DataType>
+      <StateNumber>691</StateNumber>
+    </column>
+    <column id="240" parent="47" name="Gameable">
+      <DataType>boolean|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>725</StateNumber>
+      <DefaultExpression>false</DefaultExpression>
+    </column>
+    <column id="241" parent="47" name="Date">
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>893</StateNumber>
+      <DefaultExpression>&apos;0001-01-01 00:00:00&apos;::timestamp without time zone</DefaultExpression>
+    </column>
+    <index id="242" parent="47" name="PK_public.Events">
+      <ObjectId>16415</ObjectId>
+      <ColNames>EventID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="243" parent="47" name="PK_public.Events">
+      <ObjectId>16416</ObjectId>
+      <ColNames>EventID</ColNames>
+      <UnderlyingIndexName>PK_public\u002EEvents</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="244" parent="48" name="PhotoEventID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>664</StateNumber>
+      <DefaultExpression>nextval(&apos;&quot;PhotoEvents_PhotoEventID_seq&quot;&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="245" parent="48" name="PhotoID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>664</StateNumber>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="246" parent="48" name="EventID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>664</StateNumber>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <index id="247" parent="48" name="PK_public.PhotoEvents">
+      <ObjectId>16492</ObjectId>
+      <ColNames>PhotoEventID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="248" parent="48" name="PhotoEvents_IX_PhotoID">
+      <ObjectId>16494</ObjectId>
+      <ColNames>PhotoID</ColNames>
+    </index>
+    <index id="249" parent="48" name="PhotoEvents_IX_EventID">
+      <ObjectId>16495</ObjectId>
+      <ColNames>EventID</ColNames>
+    </index>
+    <key id="250" parent="48" name="PK_public.PhotoEvents">
+      <ObjectId>16493</ObjectId>
+      <ColNames>PhotoEventID</ColNames>
+      <UnderlyingIndexName>PK_public\u002EPhotoEvents</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="251" parent="48" name="FK_public.PhotoEvents_public.Photos_PhotoID">
+      <ObjectId>16578</ObjectId>
+      <ColNames>PhotoID</ColNames>
+      <RefTableName>Photos</RefTableName>
+      <RefKeyName>PK_public.Photos</RefKeyName>
+      <RefColNames>PhotoID</RefColNames>
+    </foreign-key>
+    <foreign-key id="252" parent="48" name="FK_public.PhotoEvents_public.Events_EventID">
+      <ObjectId>16573</ObjectId>
+      <ColNames>EventID</ColNames>
+      <RefTableName>Events</RefTableName>
+      <RefKeyName>PK_public.Events</RefKeyName>
+      <RefColNames>EventID</RefColNames>
+    </foreign-key>
+    <column id="253" parent="49" name="PhotoID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>664</StateNumber>
+      <DefaultExpression>nextval(&apos;&quot;Photos_PhotoID_seq&quot;&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="254" parent="49" name="Source">
+      <DataType>text|0</DataType>
+      <StateNumber>664</StateNumber>
+    </column>
+    <column id="255" parent="49" name="Text">
+      <DataType>text|0</DataType>
+      <StateNumber>664</StateNumber>
+    </column>
+    <index id="256" parent="49" name="PK_public.Photos">
+      <ObjectId>16505</ObjectId>
+      <ColNames>PhotoID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="257" parent="49" name="PK_public.Photos">
+      <ObjectId>16506</ObjectId>
+      <ColNames>PhotoID</ColNames>
+      <UnderlyingIndexName>PK_public\u002EPhotos</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="258" parent="50" name="PlaceID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>664</StateNumber>
+      <DefaultExpression>nextval(&apos;&quot;Places_PlaceID_seq&quot;&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="259" parent="50" name="Latitude">
+      <DataType>real|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>664</StateNumber>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="260" parent="50" name="Longitude">
+      <DataType>real|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>664</StateNumber>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="261" parent="50" name="Name">
+      <DataType>text|0</DataType>
+      <StateNumber>664</StateNumber>
+    </column>
+    <index id="262" parent="50" name="PK_public.Places">
+      <ObjectId>16518</ObjectId>
+      <ColNames>PlaceID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="263" parent="50" name="PK_public.Places">
+      <ObjectId>16519</ObjectId>
+      <ColNames>PlaceID</ColNames>
+      <UnderlyingIndexName>PK_public\u002EPlaces</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="264" parent="51" name="UserEventID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>721</StateNumber>
+      <DefaultExpression>nextval(&apos;dbo.&quot;UserEvents_UserEventID_seq&quot;&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="265" parent="51" name="EventID">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>721</StateNumber>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="266" parent="51" name="Points">
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>721</StateNumber>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="267" parent="51" name="UserID">
+      <DataType>varchar(128)|0</DataType>
+      <StateNumber>952</StateNumber>
+    </column>
+    <index id="268" parent="51" name="PK_dbo.UserEvents">
+      <ObjectId>16616</ObjectId>
+      <ColNames>UserEventID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="269" parent="51" name="UserEvents_IX_EventID">
+      <ObjectId>16618</ObjectId>
+      <ColNames>EventID</ColNames>
+    </index>
+    <index id="270" parent="51" name="UserEvents_IX_User_Id">
+      <ObjectId>16619</ObjectId>
+      <ColNames>UserID</ColNames>
+    </index>
+    <index id="271" parent="51" name="UserEvents_IX_UserID">
+      <ObjectId>16677</ObjectId>
+      <ColNames>?</ColNames>
+    </index>
+    <key id="272" parent="51" name="PK_dbo.UserEvents">
+      <ObjectId>16617</ObjectId>
+      <ColNames>UserEventID</ColNames>
+      <UnderlyingIndexName>PK_dbo\u002EUserEvents</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="273" parent="51" name="FK_dbo.UserEvents_dbo.Events_EventID">
+      <ObjectId>16620</ObjectId>
+      <ColNames>Points</ColNames>
+      <RefTableName>Events</RefTableName>
+      <RefKeyName>PK_public.Events</RefKeyName>
+      <RefColNames>EventID</RefColNames>
+    </foreign-key>
+    <foreign-key id="274" parent="51" name="FK_dbo.UserEvents_dbo.AspNetUsers_User_Id">
+      <ObjectId>16672</ObjectId>
+      <ColNames>?</ColNames>
+      <RefTableName>AspNetUsers</RefTableName>
+      <RefKeyName>PK_public.AspNetUsers</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+  </database-model>
+</dataSource>
