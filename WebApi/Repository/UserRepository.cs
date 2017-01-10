@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using WebApi.Models;
 
 namespace WebApi.Repository
@@ -13,19 +14,22 @@ namespace WebApi.Repository
             _db = dbContext;
         }
 
-        public void Add(User user)
+        public User Add(User user)
         {
-            throw new System.NotImplementedException();
+            var addUser = _db.Users.Add(user);
+            _db.SaveChanges();
+            user.Id = addUser.Entity.Id;
+            return user;
         }
 
         public IEnumerable<User> GetAll()
         {
-            throw new System.NotImplementedException();
+            return _db.Users.ToList();
         }
 
         public User Find(string key)
         {
-            throw new System.NotImplementedException();
+            return _db.Users.FirstOrDefault(u => u.Id == key);
         }
 
         public bool CheckValidUserKey(string reqkey)

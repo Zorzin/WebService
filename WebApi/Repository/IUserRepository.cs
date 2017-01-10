@@ -5,7 +5,7 @@ namespace WebApi.Repository
 {
     public interface IUserRepository
     {
-        void Add(User user);
+        User Add(User user);
         IEnumerable<User> GetAll();
         User Find(string key);
 

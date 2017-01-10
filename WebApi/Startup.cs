@@ -13,6 +13,7 @@ using WebApi.Models;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using WebApi.Repository;
+using Stormpath.AspNetCore;
 
 namespace WebApi
 {
@@ -40,6 +41,7 @@ namespace WebApi
         // This method gets called by the runtime. Use this method to add services to the container
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddStormpath();
             // Add framework services.
             var connectionString = Configuration["Data:MyConnectionString"];
             services.AddDbContext<MyDbContext>(opts => opts.UseNpgsql(connectionString));
@@ -66,13 +68,16 @@ namespace WebApi
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
+
+
+
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
 
             app.UseApplicationInsightsRequestTelemetry();
 
             app.UseApplicationInsightsExceptionTelemetry();
-
+            app.UseStormpath();
             app.UseMvc();
         }
     }

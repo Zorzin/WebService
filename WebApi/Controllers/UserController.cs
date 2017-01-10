@@ -1,10 +1,12 @@
 ﻿using System.Collections.Generic;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using WebApi.Models;
 using WebApi.Repository;
 
 namespace WebApi.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     public class UsersController:Controller
     {
@@ -31,5 +33,20 @@ namespace WebApi.Controllers
             }
             return new ObjectResult(item);
         }
+
+        // POST book
+        [HttpPost]
+        public IActionResult Post([FromBody]User user)
+        {
+            if (user == null)
+            {
+                return BadRequest();
+            }
+            var createdUser = UserRepository.Add(user);
+
+
+            return CreatedAtRoute("GetBook", new { id = createdUser.Id }, createdUser);
+        }
+
     }
 }
