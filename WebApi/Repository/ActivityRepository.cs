@@ -22,7 +22,7 @@ namespace WebApi.Repository
 
         public IEnumerable<Activity> GetAll()
         {
-            return _db.Activities.ToList();
+            return _db.Activities.Include(a=>a.Place).ToList();
         }
 
         public Activity Find(int key)

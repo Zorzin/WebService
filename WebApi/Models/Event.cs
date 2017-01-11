@@ -13,6 +13,7 @@ public class Event
         public bool Active { get; set; }
         public bool Viewable { get; set; }
         public bool Gameable{ get; set; }
+        public string Baner { get;set;}
 
         public virtual ICollection<Activity> Activities { get; set; }
         public virtual ICollection<PhotoEvent> PhotoEvents { get; set; }
