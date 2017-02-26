@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 using WebApi.Models;
 
 namespace WebApi.Repository
@@ -21,12 +22,12 @@ namespace WebApi.Repository
 
         public IEnumerable<Photo> GetAll()
         {
-            return _db.Photos.ToList();
+            return _db.Photos.AsNoTracking().ToList();
         }
 
         public Photo Find(int key)
         {
-            return _db.Photos.FirstOrDefault(p => p.PhotoID == key);
+            return _db.Photos.AsNoTracking().FirstOrDefault(p => p.PhotoID == key);
         }
 
         public bool CheckValidUserKey(string reqkey)

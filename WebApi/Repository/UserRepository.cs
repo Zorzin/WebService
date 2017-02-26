@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 using WebApi.Models;
 
 namespace WebApi.Repository
@@ -24,12 +25,12 @@ namespace WebApi.Repository
 
         public IEnumerable<User> GetAll()
         {
-            return _db.Users.ToList();
+            return _db.Users.AsNoTracking().ToList();
         }
 
         public User Find(string key)
         {
-            return _db.Users.FirstOrDefault(u => u.Id == key);
+            return _db.Users.AsNoTracking().FirstOrDefault(u => u.Id == key);
         }
 
         public bool CheckValidUserKey(string reqkey)

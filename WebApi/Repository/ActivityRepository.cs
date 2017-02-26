@@ -22,12 +22,12 @@ namespace WebApi.Repository
 
         public IEnumerable<Activity> GetAll()
         {
-            return _db.Activities.AsNoTracking();
+            return _db.Activities.AsNoTracking().ToList();
         }
 
         public Activity Find(int key)
         {
-            return _db.Activities.FirstOrDefault(a => a.ActivityID == key);
+            return _db.Activities.AsNoTracking().FirstOrDefault(a => a.ActivityID == key);
         }
 
         public bool CheckValidUserKey(string reqkey)

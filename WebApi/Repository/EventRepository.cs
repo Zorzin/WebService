@@ -22,14 +22,12 @@ namespace WebApi.Repository
 
         public IEnumerable<Event> GetAll()
         {
-            return _db.Events
-                .ToList();
+            return _db.Events.AsNoTracking().ToList();
         }
 
         public Event Find(int key)
         {
-            return _db.Events
-                .FirstOrDefault(a => a.EventID == key);
+            return _db.Events.AsNoTracking().FirstOrDefault(a => a.EventID == key);
         }
 
         public bool CheckValidUserKey(string reqkey)
