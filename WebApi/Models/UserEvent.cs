@@ -7,6 +7,6 @@ public class UserEvent
     public int EventID { get; set; }
     public int Points { get; set; }
 
-    public virtual Event Event { get; set; }
-    public virtual User User { get; set; }
+    public  Event Event { get; set; }
+    public  User User { get; set; }
 }

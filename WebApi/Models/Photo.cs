@@ -6,5 +6,5 @@ public class Photo
         public string Source { get; set; }
         public string Text { get; set; }
 
-        public virtual ICollection<PhotoEvent> PhotoEvents { get; set; }
+        public  ICollection<PhotoEvent> PhotoEvents { get; set; }
     }

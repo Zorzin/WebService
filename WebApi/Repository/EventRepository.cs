@@ -23,16 +23,12 @@ namespace WebApi.Repository
         public IEnumerable<Event> GetAll()
         {
             return _db.Events
-                .Include(e=>e.Activities).ThenInclude(a=>a.Place)
-                .Include(e=>e.PhotoEvents).ThenInclude(p=>p.Photo)
                 .ToList();
         }
 
         public Event Find(int key)
         {
             return _db.Events
-                .Include(e=>e.Activities).ThenInclude(a=>a.Place)
-                .Include(e=>e.PhotoEvents).ThenInclude(p=>p.Photo)
                 .FirstOrDefault(a => a.EventID == key);
         }
 

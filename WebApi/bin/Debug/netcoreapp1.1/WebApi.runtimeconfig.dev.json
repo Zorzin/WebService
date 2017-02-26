@@ -1,7 +1,7 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/Users/zorzin/.nuget/packages"
+      "C:\\Users\\Zorzin\\.nuget\\packages"
     ]
   }
 }

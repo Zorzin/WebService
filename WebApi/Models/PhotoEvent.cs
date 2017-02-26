@@ -6,6 +6,6 @@ public class PhotoEvent
         
         public int EventID { get; set; }
 
-        public virtual Event Event { get; set; }
-        public virtual Photo Photo { get; set; }
+        public  Event Event { get; set; }
+        public  Photo Photo { get; set; }
     }

@@ -62,6 +62,7 @@ namespace WebApi
             services.AddSingleton<IPhotoRepository, PhotoRepository>();
             services.AddSingleton<IPlaceRepository, PlaceRepository>();
             services.AddSingleton<IUserRepository, UserRepository>();
+            services.AddSingleton<IPhotoEventRepository, PhotoEventRepository>();
 
         }
 
